@@ -1,0 +1,131 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-image: url('https://static.wixstatic.com/media/0ddc71_a51bd4e926cc46eea7c6868228e77ee9~mv2.png/v1/fill/w_1250,h_800,al_c,q_90,enc_auto/0ddc71_a51bd4e926cc46eea7c6868228e77ee9~mv2.png');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Navigation Bar */
+.top-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.top-nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.top-nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.top-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-item {
+  margin: 0 20px;
+}
+
+.image-item img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.image-item img:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-transform: lowercase;
+}
+
+/* Skills Page Table */
+.skills-content {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: #333;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #555;
+}
+
+tr:hover {
+  background-color: #666;
+}
+
+/* About Page Content */
+.about-content {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: justify;
+}
